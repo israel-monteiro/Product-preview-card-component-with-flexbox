@@ -27,7 +27,7 @@ body {
 
     background: var(--color-white, #FFF);
     border-radius: 1rem;
-    height: 45.6rem;
+    min-height: 45.6rem;
 }
 
 .product-card picture {
