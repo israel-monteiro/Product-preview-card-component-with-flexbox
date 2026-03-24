@@ -24,18 +24,18 @@ body {
 
     display: flex;
     align-items: center;
-    
+
     background: var(--color-white, #FFF);
     border-radius: 1rem;
     min-height: 45.6rem;
 }
 
 
-    
-    .product-card .product-image {
-        max-width: 30rem;
-        border-radius: 1rem 0 0 1rem;
-     
+
+.product-card .product-image {
+    max-width: 30rem;
+    border-radius: 1rem 0 0 1rem;
+
 }
 
 .info {
@@ -119,4 +119,10 @@ body {
     border-radius: var(--spacing-100, 0.8rem);
     background: var(--color-green-700, #1A4032);
     cursor: pointer;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .btn {
+        transition: none;
+    }
 }
